@@ -1,0 +1,71 @@
+/*  Edgar Alejandro Jarquin Flores */
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#wrapper{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
+}
+
+#display{
+    display: grid;
+    grid-column: 1/5;
+    justify-content: end;
+    padding: 5px;
+    background-color:#5D5B5A;
+    color: white;
+    font-size: 50px;
+    
+}
+#numeros{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+    
+}
+
+.doble{
+    display: grid;
+    grid-column: 1 / 3;
+   
+}
+
+.btn{
+    height: 48px;
+    width: 58px;
+    
+    
+}
+
+.naranja{
+    background-color: #FF9F0C;
+    border-color: black;
+    border-width: .99px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.slate{
+    background-color: #696969;
+    border-color: black;
+    border-width: .99px;
+    color: white;
+    font-size: 20px;
+}
+
+.numbers{
+    background-color: #838383;
+    border-color: black;
+    border-width: .99px;
+    color: white;
+    font-size: 20px;
+    
+}
