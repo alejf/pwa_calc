@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/assets/js/calculadora.js"></script>
+    <script src="./assets/js/calculadora.js"></script>
     <link rel="stylesheet" href="./assets/css/calculadora.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -16,12 +16,12 @@
     <div id="wrapper">
         
         <div id="numeros">
-            <div id="display">0</div>
-            <input type="button" value="AC" class="btn slate"><input type="button" value="+/-" class="btn slate"><input type="button" value="%" class="btn slate"><input type="button" value="/" class="btn naranja">
-            <input type="button" value="7" class="btn numbers"><input type="button" value="8" class="btn numbers"><input type="button" value="9" class="btn numbers"><input type="button" value="*" class="btn naranja">
-            <input type="button" value="4" class="btn numbers"><input type="button" value="5" class="btn numbers"><input type="button" value="6" class="btn numbers"><input type="button" value="-" class="btn naranja">
-            <input type="button" value="1" class="btn numbers"><input type="button" value="2" class="btn numbers"><input type="button" value="3" class="btn numbers"><input type="button" value="+" class="btn naranja">
-            <input class="doble numbers" type="button" value="0" ><input class="btn numbers" type="button" value="." ><input type="button" value="=" class="btn naranja">
+            <div id="display" maxlength="10">0</div>
+            <input type="button" value="AC" class="btn slate" onclick="boton('ac')"><input type="button" value="+/-" class="btn slate"  ><input type="button" value="%" class="btn slate" ><input type="button" value="/" class="btn naranja" onclick="boton('/')">
+            <input type="button" value="7" class="btn numbers" onclick="boton('7')" ><input type="button" value="8" class="btn numbers" onclick="boton('8')"><input type="button" value="9" class="btn numbers" onclick="boton('9')"><input type="button" value="*" class="btn naranja" onclick="boton('*')" >
+            <input type="button" value="4" class="btn numbers" onclick="boton('4')"><input type="button" value="5" class="btn numbers" onclick="boton('5')"><input type="button" value="6" class="btn numbers" onclick="boton('6')"><input type="button" value="-" class="btn naranja" onclick="boton('-')">
+            <input type="button" value="1" class="btn numbers" onclick="boton('1')" ><input type="button" value="2" class="btn numbers" onclick="boton('2')" ><input type="button" value="3" class="btn numbers" onclick="boton('3')"><input type="button" value="+" class="btn naranja" onclick="boton('+')">
+            <input class="doble numbers" type="button" value="0" onclick="boton('0')" ><input class="btn numbers" type="button" value="." onclick="boton('.')" ><input type="button" value="=" class="btn naranja" onclick="igual()">
         </div>
         <div id="operaciones">
 
