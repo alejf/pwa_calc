@@ -1,0 +1,23 @@
+{
+    "short_name": "Calculadora estilo macOs",
+    "name": "caluladora",
+    "start_url": "/dist/calculadora.html",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "Simulando una calculadora mac",
+    "icons": [
+      {
+        "src": "/dist/calculadora.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/dist/calculadora2.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }

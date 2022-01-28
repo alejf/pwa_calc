@@ -1,0 +1,31 @@
+{
+  "name": "calculadora_tipo_mac",
+  "version": "1.0.0",
+  "description": "Realizando un ejercicio tratando de emular la calculadora tipo MacOS en html con ayuda de css y javascript vanilla.",
+  "main": "webpackconfig.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejf/calculadora_tipo_mac.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejf/calculadora_tipo_mac/issues"
+  },
+  "homepage": "https://github.com/alejf/calculadora_tipo_mac#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "file-loader": "^6.2.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2",
+    "workbox-webpack-plugin": "^6.4.2"
+  }
+}
